@@ -1,0 +1,4 @@
+module ResizablePopover {
+    header "/Users/willsuo/files/Github/ResizablePopover/.build/arm64-apple-macosx/debug/ResizablePopover.build/ResizablePopover-Swift.h"
+    requires objc
+}

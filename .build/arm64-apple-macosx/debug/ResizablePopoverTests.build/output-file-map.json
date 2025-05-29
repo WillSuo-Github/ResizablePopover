@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/willsuo/files/Github/ResizablePopover/.build/arm64-apple-macosx/debug/ResizablePopoverTests.build/master.swiftdeps"
+  },
+  "/Users/willsuo/files/Github/ResizablePopover/Tests/ResizablePopoverTests/ResizablePopoverTests.swift": {
+    "dependencies": "/Users/willsuo/files/Github/ResizablePopover/.build/arm64-apple-macosx/debug/ResizablePopoverTests.build/ResizablePopoverTests.d",
+    "object": "/Users/willsuo/files/Github/ResizablePopover/.build/arm64-apple-macosx/debug/ResizablePopoverTests.build/ResizablePopoverTests.swift.o",
+    "swiftmodule": "/Users/willsuo/files/Github/ResizablePopover/.build/arm64-apple-macosx/debug/ResizablePopoverTests.build/ResizablePopoverTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsuo/files/Github/ResizablePopover/.build/arm64-apple-macosx/debug/ResizablePopoverTests.build/ResizablePopoverTests.swiftdeps"
+  }
+}
