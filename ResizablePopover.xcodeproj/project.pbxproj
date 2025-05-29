@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3494D3CC2DE84125006505B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3494D3B42DE84124006505B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3494D3BB2DE84124006505B6;
+			remoteInfo = ResizablePopover;
+		};
+		3494D3D62DE84125006505B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3494D3B42DE84124006505B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3494D3BB2DE84124006505B6;
+			remoteInfo = ResizablePopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3494D3BC2DE84124006505B6 /* ResizablePopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizablePopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3494D3CB2DE84125006505B6 /* ResizablePopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizablePopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3494D3D52DE84125006505B6 /* ResizablePopoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizablePopoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3494D3BE2DE84124006505B6 /* ResizablePopover */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ResizablePopover;
+			sourceTree = "<group>";
+		};
+		3494D3CE2DE84125006505B6 /* ResizablePopoverTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ResizablePopoverTests;
+			sourceTree = "<group>";
+		};
+		3494D3D82DE84125006505B6 /* ResizablePopoverUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ResizablePopoverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3494D3B92DE84124006505B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3494D3C82DE84125006505B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3494D3D22DE84125006505B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3494D3B32DE84124006505B6 = {
+			isa = PBXGroup;
+			children = (
+				3494D3BE2DE84124006505B6 /* ResizablePopover */,
+				3494D3CE2DE84125006505B6 /* ResizablePopoverTests */,
+				3494D3D82DE84125006505B6 /* ResizablePopoverUITests */,
+				3494D3BD2DE84124006505B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3494D3BD2DE84124006505B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3494D3BC2DE84124006505B6 /* ResizablePopover.app */,
+				3494D3CB2DE84125006505B6 /* ResizablePopoverTests.xctest */,
+				3494D3D52DE84125006505B6 /* ResizablePopoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3494D3BB2DE84124006505B6 /* ResizablePopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3494D3DF2DE84125006505B6 /* Build configuration list for PBXNativeTarget "ResizablePopover" */;
+			buildPhases = (
+				3494D3B82DE84124006505B6 /* Sources */,
+				3494D3B92DE84124006505B6 /* Frameworks */,
+				3494D3BA2DE84124006505B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3494D3BE2DE84124006505B6 /* ResizablePopover */,
+			);
+			name = ResizablePopover;
+			packageProductDependencies = (
+			);
+			productName = ResizablePopover;
+			productReference = 3494D3BC2DE84124006505B6 /* ResizablePopover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3494D3CA2DE84125006505B6 /* ResizablePopoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3494D3E22DE84125006505B6 /* Build configuration list for PBXNativeTarget "ResizablePopoverTests" */;
+			buildPhases = (
+				3494D3C72DE84125006505B6 /* Sources */,
+				3494D3C82DE84125006505B6 /* Frameworks */,
+				3494D3C92DE84125006505B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3494D3CD2DE84125006505B6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3494D3CE2DE84125006505B6 /* ResizablePopoverTests */,
+			);
+			name = ResizablePopoverTests;
+			packageProductDependencies = (
+			);
+			productName = ResizablePopoverTests;
+			productReference = 3494D3CB2DE84125006505B6 /* ResizablePopoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3494D3D42DE84125006505B6 /* ResizablePopoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3494D3E52DE84125006505B6 /* Build configuration list for PBXNativeTarget "ResizablePopoverUITests" */;
+			buildPhases = (
+				3494D3D12DE84125006505B6 /* Sources */,
+				3494D3D22DE84125006505B6 /* Frameworks */,
+				3494D3D32DE84125006505B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3494D3D72DE84125006505B6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3494D3D82DE84125006505B6 /* ResizablePopoverUITests */,
+			);
+			name = ResizablePopoverUITests;
+			packageProductDependencies = (
+			);
+			productName = ResizablePopoverUITests;
+			productReference = 3494D3D52DE84125006505B6 /* ResizablePopoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3494D3B42DE84124006505B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					3494D3BB2DE84124006505B6 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					3494D3CA2DE84125006505B6 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 3494D3BB2DE84124006505B6;
+					};
+					3494D3D42DE84125006505B6 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 3494D3BB2DE84124006505B6;
+					};
+				};
+			};
+			buildConfigurationList = 3494D3B72DE84124006505B6 /* Build configuration list for PBXProject "ResizablePopover" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3494D3B32DE84124006505B6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3494D3BD2DE84124006505B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3494D3BB2DE84124006505B6 /* ResizablePopover */,
+				3494D3CA2DE84125006505B6 /* ResizablePopoverTests */,
+				3494D3D42DE84125006505B6 /* ResizablePopoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3494D3BA2DE84124006505B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3494D3C92DE84125006505B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3494D3D32DE84125006505B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3494D3B82DE84124006505B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3494D3C72DE84125006505B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3494D3D12DE84125006505B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3494D3CD2DE84125006505B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3494D3BB2DE84124006505B6 /* ResizablePopover */;
+			targetProxy = 3494D3CC2DE84125006505B6 /* PBXContainerItemProxy */;
+		};
+		3494D3D72DE84125006505B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3494D3BB2DE84124006505B6 /* ResizablePopover */;
+			targetProxy = 3494D3D62DE84125006505B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3494D3DD2DE84125006505B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3494D3DE2DE84125006505B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3494D3E02DE84125006505B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ResizablePopover/ResizablePopover.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.ResizablePopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3494D3E12DE84125006505B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ResizablePopover/ResizablePopover.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.ResizablePopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3494D3E32DE84125006505B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.ResizablePopoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResizablePopover.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResizablePopover";
+			};
+			name = Debug;
+		};
+		3494D3E42DE84125006505B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.ResizablePopoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResizablePopover.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResizablePopover";
+			};
+			name = Release;
+		};
+		3494D3E62DE84125006505B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.ResizablePopoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ResizablePopover;
+			};
+			name = Debug;
+		};
+		3494D3E72DE84125006505B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.ResizablePopoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ResizablePopover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3494D3B72DE84124006505B6 /* Build configuration list for PBXProject "ResizablePopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3494D3DD2DE84125006505B6 /* Debug */,
+				3494D3DE2DE84125006505B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3494D3DF2DE84125006505B6 /* Build configuration list for PBXNativeTarget "ResizablePopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3494D3E02DE84125006505B6 /* Debug */,
+				3494D3E12DE84125006505B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3494D3E22DE84125006505B6 /* Build configuration list for PBXNativeTarget "ResizablePopoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3494D3E32DE84125006505B6 /* Debug */,
+				3494D3E42DE84125006505B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3494D3E52DE84125006505B6 /* Build configuration list for PBXNativeTarget "ResizablePopoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3494D3E62DE84125006505B6 /* Debug */,
+				3494D3E72DE84125006505B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3494D3B42DE84124006505B6 /* Project object */;
+}
