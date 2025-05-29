@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ResizablePopover",
     platforms: [
-        .macOS(.v10_15) // Minimum macOS version that supports SwiftUI and modern NSPopover features
+        .macOS(.v14) // Minimum macOS version that supports SwiftUI and modern NSPopover features
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.

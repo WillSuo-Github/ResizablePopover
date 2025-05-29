@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		348BE8572DE8451200F519F8 /* ResizablePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348BE8562DE8451200F519F8 /* ResizablePopover.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3494D3CC2DE84125006505B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		348BE8562DE8451200F519F8 /* ResizablePopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResizablePopover.swift; path = ../Sources/ResizablePopover/ResizablePopover.swift; sourceTree = SOURCE_ROOT; };
 		3494D3BC2DE84124006505B6 /* ResizablePopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizablePopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3494D3CB2DE84125006505B6 /* ResizablePopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizablePopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3494D3D52DE84125006505B6 /* ResizablePopoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizablePopoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		3494D3B32DE84124006505B6 = {
 			isa = PBXGroup;
 			children = (
+				348BE8562DE8451200F519F8 /* ResizablePopover.swift */,
 				3494D3BE2DE84124006505B6 /* ResizablePopover */,
 				3494D3CE2DE84125006505B6 /* ResizablePopoverTests */,
 				3494D3D82DE84125006505B6 /* ResizablePopoverUITests */,
@@ -195,6 +201,8 @@
 			);
 			mainGroup = 3494D3B32DE84124006505B6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3494D3BD2DE84124006505B6 /* Products */;
 			projectDirPath = "";
@@ -236,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348BE8572DE8451200F519F8 /* ResizablePopover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +417,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ws.ResizablePopover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +446,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ws.ResizablePopover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
