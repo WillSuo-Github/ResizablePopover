@@ -2,6 +2,9 @@
 
 A Swift package that provides resizable popover windows for macOS applications.
 
+https://github.com/user-attachments/assets/81d02cd0-fa0b-48cf-ba93-60945243df63
+
+
 ## Features
 
 - 🔄 Support for resizing popover windows by dragging edges and corners
