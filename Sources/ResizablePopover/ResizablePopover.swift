@@ -46,8 +46,8 @@ fileprivate class ResizingHandleView: NSView {
     private var initialPopoverContentSize: NSSize?
     private var initialPopoverPosition: NSPoint?
 
-    private let edgeSensitivity: CGFloat = 8.0
-    private let cornerSensitivity: CGFloat = 20.0
+    private let edgeSensitivity: CGFloat = 4.0
+    private let cornerSensitivity: CGFloat = 4.0
 
     override var isFlipped: Bool { true } // Use standard coordinate system
 
