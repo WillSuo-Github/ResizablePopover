@@ -27,7 +27,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }()
     
     private lazy var popoverController: ResizablePopover = {
-        let result = ResizablePopover(minSize: NSMakeSize(300, 300), maxSize: NSMakeSize(600, 600))
+        let result = ResizablePopover(minSize: NSMakeSize(300, 300), maxSize: NSMakeSize(600, 600)) { newSize in
+            print("Popover resized to: \(newSize)")
+        }
         result.contentViewController = contentViewController
         return result
     }()

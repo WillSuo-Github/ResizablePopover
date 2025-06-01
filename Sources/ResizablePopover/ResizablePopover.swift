@@ -76,9 +76,10 @@ public class ResizablePopover: NSPopover {
         }
     }
 
-    public init(minSize: NSSize, maxSize: NSSize) {
+    public init(minSize: NSSize, maxSize: NSSize, resized: ((NSSize) -> Void)? = nil) {
         self.minSize = minSize
         self.maxSize = maxSize
+        self.resized = resized
         super.init()
     }
 
